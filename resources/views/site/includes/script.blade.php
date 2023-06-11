@@ -1,10 +1,11 @@
-<script src="{{asset('assets/site/js/jquery.min.js')}}"></script>
-<script src="{{asset('assets/site/js/bootstrap.min.js')}}"></script>
-<script src="{{asset('assets/site/js/slick.min.js')}}"></script>
-<script src="{{asset('assets/site/js/nouislider.min.js')}}"></script>
-<script src="{{asset('assets/site/js/jquery.zoom.min.js')}}"></script>
-<script src="{{asset('assets/site/js/main.js')}}"></script>
 
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+<script src="{{asset('assets/site/lib/easing/easing.min.js')}}"></script>
+<script src="{{asset('assets/site/lib/owlcarousel/owl.carousel.min.js')}}"></script>
+
+
+<script src="{{asset('assets/site/js/main.js')}}"></script>
 
 <script type="text/javascript">
     function checkSubscriber(){

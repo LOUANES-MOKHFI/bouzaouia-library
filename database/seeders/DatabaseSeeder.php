@@ -12,12 +12,19 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        $this->call(StateSeeder::class);
+        //$this->call(StateSeeder::class);
         // \App\Models\User::factory(10)->create();
 
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
+        /* \App\Models\Admin::create([
+            'name' => 'louanes mokhfui',
+            'email' => 'louanes.mokhfi@gmail.com',
+            'password' => bcrypt('123456')
+        ]); */
+
+        \App\Models\Settings::create([
+            'logo' => '',
+            'site_name' => 'Bouzaouia Library',
+            'email' => 'louanes.mokhfi@gmail.com'
+        ]);
     }
 }

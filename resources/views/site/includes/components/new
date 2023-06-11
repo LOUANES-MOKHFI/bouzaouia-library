@@ -1,0 +1,11 @@
+<!-- <?php 
+   /*  $today = date('d-m-Y', strtotime(date("d-m-Y")));
+    $created = date('d-m-Y', strtotime($book->created_at));
+    $interval = date_diff(date_create($today),date_create($created)); */
+    
+?>
+@if($interval->format('%d')<30)
+<div class="product-label">
+    <span class="new" style="font-weight: bold;font-size:16px">جديد</span>
+</div>
+@endif -->

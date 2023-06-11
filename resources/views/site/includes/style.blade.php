@@ -1,17 +1,12 @@
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
 
-<!-- Bootstrap -->
-<link type="text/css" rel="stylesheet" href="{{asset('assets/site/css/bootstrap.min.css')}}"/>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
 
-<!-- Slick -->
-<link type="text/css" rel="stylesheet" href="{{asset('assets/site/css/slick.css')}}"/>
-<link type="text/css" rel="stylesheet" href="{{asset('assets/site/css/slick-theme.css')}}"/>
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
-<!-- nouislider -->
-<link type="text/css" rel="stylesheet" href="{{asset('assets/site/css/nouislider.min.css')}}"/>
+<!-- Libraries Stylesheet -->
+<link href="{{asset('assets/site/lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
 
-<!-- Font Awesome Icon -->
-<link rel="stylesheet" href="{{asset('assets/site/css/font-awesome.min.css')}}">
-
-<!-- Custom stlylesheet -->
-<link type="text/css" rel="stylesheet" href="{{asset('assets/site/css/style.css')}}"/>
+<!-- Customized Bootstrap Stylesheet -->
+<link href="{{asset('assets/site/css/style.css')}}" rel="stylesheet">
